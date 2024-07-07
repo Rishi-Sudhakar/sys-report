@@ -1,0 +1,49 @@
+CPU Information:
+Apple M1
+8
+8
+
+Memory Information:
+Free: 60.88 MB
+Active: 1366.12 MB
+Inactive: 1350.97 MB
+Speculative: 4.73 MB
+
+Disk Usage Information:
+/dev/disk3s1s1   228Gi    10Gi    50Gi    17%    422k  521M    0%   /
+/dev/disk3s6     228Gi   8.0Gi    50Gi    14%       8  521M    0%   /System/Volumes/VM
+/dev/disk3s2     228Gi   6.0Gi    50Gi    11%     485  521M    0%   /System/Volumes/Preboot
+/dev/disk3s4     228Gi   3.5Mi    50Gi     1%     102  521M    0%   /System/Volumes/Update
+/dev/disk1s2     500Mi   6.0Mi   483Mi     2%       4  4.9M    0%   /System/Volumes/xarts
+/dev/disk1s1     500Mi   5.4Mi   483Mi     2%      32  4.9M    0%   /System/Volumes/iSCPreboot
+/dev/disk1s3     500Mi   908Ki   483Mi     1%      44  4.9M    0%   /System/Volumes/Hardware
+/dev/disk3s5     228Gi   153Gi    50Gi    76%    1.4M  521M    0%   /System/Volumes/Data
+/dev/disk4s1     8.0Gi   7.9Gi   110Mi    99%      15  4.3G    0%   /Library/Developer/CoreSimulator/Cryptex/Images/bundle/SimRuntimeBundle-DEDCEB81-2DAC-4D1D-9A40-0F94AD0926F6
+/dev/disk6s1      18Gi    17Gi   465Mi    98%    474k  4.8M    9%   /Library/Developer/CoreSimulator/Volumes/iOS_22A5282m
+
+Network Interfaces Information:
+Ethernet
+ (en3)
+Ethernet
+ (en4)
+Thunderbolt
+ (bridge0)
+Wi-Fi
+ (en0)
+Thunderbolt
+ (en1)
+Thunderbolt
+ (en2)
+
+Running Processes:
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+rishis           76247 107.4  0.1 410886240   4800   ??  R     9:17PM  35:30.77 /usr/bin/nettop -d -P -J bytes_in  bytes_out -x -L 0 -c -t
+rishis           76331  39.0  2.6 1597074160 214064   ??  R     9:21PM   7:16.54 /Applications/Brave Browser.app/Contents/Frameworks/Brave Browser Framework.framework/Versions/126.1.67.123/Helpers/Brave Browser Helper (Renderer).app/Contents/MacOS/Brave Browser Helper (Renderer) --type=renderer --metrics-client-id=fcf08037-da98-4bdc-b2fd-5f4b4cef6ebf --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --start-stack-profiler --brave_session_token=5352869105906608944 --lang=en-GB --num-raster-threads=4 --enable-zero-copy --enable-gpu-memory-buffer-compositor-resources --enable-main-frame-before-activation --renderer-client-id=159 --time-ticks-at-unix-epoch=-1719848520389732 --launch-time-ticks=514651726928 --shared-files --field-trial-handle=1718379636,r,8110552785697270322,11405352494671605813,262144 --variations-seed-version=1 --seatbelt-client=181
+rishis            1156  25.7  0.4 412058816  30304   ??  S    26Jun24 181:35.76 /Applications/Network & Battery.app/Contents/MacOS/Network & Battery
+_windowserver      151  20.4  1.5 414866112 124160   ??  Ss   26Jun24 1599:22.54 /System/Library/PrivateFrameworks/SkyLight.framework/Resources/WindowServer -daemon
+rishis           71429  20.1  5.9 426070624 497152   ??  S     8:07PM  21:18.72 /Users/rishis/Library/Android/sdk/emulator/qemu/darwin-aarch64/qemu-system-aarch64 -netdelay none -netspeed full -avd Pixel_Fold_API_34 -qt-hide-window -grpc-use-token -idle-grpc-timeout 300
+_coreaudiod      31738   9.4  0.2 426984608  14096   ??  Ss   Fri04PM  80:03.16 /usr/sbin/coreaudiod
+rishis             518   9.0  0.9 412671888  77680   ??  S    26Jun24  31:27.03 /System/Library/CoreServices/Finder.app/Contents/MacOS/Finder
+rishis           71070   8.7  2.8 419636416 231872   ??  S     8:06PM  11:16.28 /Applications/Android Studio.app/Contents/MacOS/studio
+rishis           77319   4.8  0.3 426983936  23136   ??  Ss    9:45PM   0:00.27 /System/Library/ExtensionKit/Extensions/TextThumbnailExtension.appex/Contents/MacOS/TextThumbnailExtension
+
